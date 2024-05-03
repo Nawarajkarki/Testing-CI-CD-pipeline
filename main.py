@@ -11,15 +11,9 @@ def homepage():
     return {"msg" : "deployment file"}
 
 
-app.get("/new")
-def new_endpoint():
-    return {"msg" : "new endpoint added"}
-
-
-@app.get("/cicd")
-def cicd_test():
-    return {"msg" : "Display of this msg means success of the CICD pipeline"}
-
+@app.get("/dependency")
+def dependency():
+    return {"msg" : "las;kdjf"}
 
 @app.get("/cicd/{anything}")
 def return_anything(anything:str):
