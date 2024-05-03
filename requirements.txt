@@ -33,7 +33,5 @@ ujson==5.9.0
 uvicorn==0.29.0
 watchfiles==0.21.0
 websockets==12.0
-pandas==2.2.2
-click==8.1.7
 requests==2.31.0
 PyAutoGUI==0.9.54
