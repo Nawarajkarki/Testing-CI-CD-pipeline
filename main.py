@@ -14,3 +14,8 @@ def homepage():
 @app.get("/cicd")
 def cicd_test():
     return {"msg" : "Display of this msg means success of the CICD pipeline"}
+
+
+@app.get("/cicd/{anything}")
+def return_anything(anything:str):
+    return {"msg" : "This indicates Success of the CICD pipeline implemented", "Your Msg" : f"{anything}"}
