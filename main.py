@@ -8,7 +8,7 @@ app.include_router(listener)
 
 @app.get("/")
 def homepage():
-    return {"msg" : "Added --watch Flag"}
+    return {"msg" : "listener upgrade check"}
 
 
 app.get("/new")
