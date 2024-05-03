@@ -8,7 +8,7 @@ app.include_router(listener)
 
 @app.get("/")
 def homepage():
-    return {"msg" : "Fucking work added to the requirementes.txt file"}
+    return {"msg" : "Pyautogui added to the requirementes.txt file"}
 
 
 @app.get("/dependency")
