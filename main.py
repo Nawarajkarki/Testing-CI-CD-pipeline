@@ -13,7 +13,7 @@ def homepage():
 
 @app.get("/dependency")
 def dependency():
-    return {"msg" : "las;kdjf"}
+    return {"msg" : "dependencies installation"}
 
 @app.get("/cicd/{anything}")
 def return_anything(anything:str):
