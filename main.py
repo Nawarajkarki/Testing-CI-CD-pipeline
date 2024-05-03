@@ -8,7 +8,12 @@ app.include_router(listener)
 
 @app.get("/")
 def homepage():
-    return {"msg" : "Welcome To the homepage of CICD test APP."}
+    return {"msg" : "Changing the old endpoint"}
+
+
+app.get("/new")
+def new_endpoint():
+    return {"msg" : "new endpoint added"}
 
 
 @app.get("/cicd")
