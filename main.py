@@ -8,7 +8,7 @@ app.include_router(listener)
 
 @app.get("/github-actions")
 def actions():
-    return ("Github actions requirements installation check.")
+    return ("Github actions requirements Alembic Migrations check.")
 
 
 @app.get("/")
