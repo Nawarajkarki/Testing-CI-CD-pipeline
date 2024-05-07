@@ -8,7 +8,7 @@ app.include_router(listener)
 
 @app.get("/github-actions")
 def actions():
-    return ("another one.")
+    return ("Dummy branch changes.")
 
 
 @app.get("/")
