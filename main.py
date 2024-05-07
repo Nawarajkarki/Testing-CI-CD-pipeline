@@ -6,6 +6,11 @@ app = FastAPI()
 
 app.include_router(listener)
 
+@app.get("/github-actions")
+def actions():
+    return ("Github Actions is working.")
+
+
 @app.get("/")
 def cicd_home():
     return {"msg" : "Should work"}
