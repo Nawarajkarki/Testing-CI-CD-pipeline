@@ -4,7 +4,7 @@ import subprocess
 listener = APIRouter()
 
 
-@listener.post("/listener")
+@listener.post("aslasdfakdjf")
 async def webhook_listener():
     try:
         subprocess.run(["git", "pull"])
