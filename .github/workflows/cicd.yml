@@ -27,6 +27,7 @@ jobs:
             git pull origin master
             source /home/ec2-user/Testing-CI-CD-pipeline/venv/bin/activate
             pip install -r requirements.txt
+            alembic upgrade head
             
             deactivate
             # Additional commands as needed
