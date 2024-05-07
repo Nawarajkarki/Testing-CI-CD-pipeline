@@ -36,3 +36,4 @@ websockets==12.0
 requests==2.31.0
 PyAutoGUI==0.9.54
 alembic==1.13.1
+PyMySQL==1.1.0

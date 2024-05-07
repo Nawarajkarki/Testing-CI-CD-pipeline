@@ -24,8 +24,11 @@ jobs:
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
             cd /home/ec2-user/Testing-CI-CD-pipeline/
+            
             git pull origin master
-            source /home/ec2-user/Testing-CI-CD-pipeline/venv/bin/activate
+            source venv/bin/activate
+            
+            
             pip install -r requirements.txt
             alembic upgrade head
             
