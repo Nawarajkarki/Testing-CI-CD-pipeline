@@ -24,6 +24,6 @@ jobs:
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
             cd /home/ec2-user/Testing-CI-CD-pipeline/
-            git pull origin main
+            git pull origin master
             pip install -r requirements.txt
             # Additional commands as needed
